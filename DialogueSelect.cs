@@ -85,7 +85,7 @@ namespace DialogueHotkeys
         {
             if (debug)
             {
-                InformationManager.DisplayMessage(new InformationMessage("[FasterDialogue] " + log));
+                InformationManager.DisplayMessage(new InformationMessage("[DialogueHotkeys] " + log));
             }
         }
     }
