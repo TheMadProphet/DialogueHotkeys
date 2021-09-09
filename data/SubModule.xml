@@ -1,0 +1,20 @@
+<Module>
+    <Name value="Dialogue Hotkeys"/>
+    <Id value="DialogueHotkeys"/>
+    <Version value="v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules/>
+    <SubModules>
+        <SubModule>
+            <Name value="DialogueSelect"/>
+            <DLLName value="DialogueHotkeys.dll"/>
+            <SubModuleClassType value="DialogueHotkeys.DialogueSelect"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls/>
+</Module>
